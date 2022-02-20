@@ -8,6 +8,7 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+.idea/
 build/
 develop-eggs/
 dist/
@@ -34,6 +35,7 @@ MANIFEST
 *.spec
 
 # Installer logs
+Pipfile
 pip-log.txt
 pip-delete-this-directory.txt
 
