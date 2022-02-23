@@ -37,12 +37,12 @@ def get_employees() -> None:
     return unwrapper(execute_query(query_sql))
 
 
-# get_employees()
+get_employees()
 
 def get_customers(state_name=None, city_name=None) -> None:
     query_sql = '''
         SELECT FirstName
-              ,City 
+              ,City
               ,State
           FROM customers
         '''

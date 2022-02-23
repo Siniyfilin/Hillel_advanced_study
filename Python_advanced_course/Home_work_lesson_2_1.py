@@ -44,8 +44,7 @@ def get_units_list() -> Tuple:
 
 def main_function():
     '''
-    Функция для вывода результата
-    :return: Результат умножения сумм колонок UnitPrice и Quantity из таблицы invoice_items
+    Функция выводит результат умножения сумм колонок UnitPrice и Quantity из таблицы invoice_items
     '''
     var = get_units_list()
     print(f'Прибыль составляет: {var[0] * var[1]:.2f} ед.')
